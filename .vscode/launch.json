@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug User Service",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/user-service/cmd/main.go",
+            "cwd": "${workspaceFolder}/user-service",
+            "envFile": "${workspaceFolder}/user-service/.env"
+        }
+    ]
+}
